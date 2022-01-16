@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(142, 195, 197);
+}
+main{
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.first-section{
+    display: flex;
+}
+.head{
+    margin-top: 0px;
+    font-size: 35px;
+    color: rgb(13, 58, 102);
+    
+}
+.nav{
+    float: right;
+    padding-top: 0px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 5px 8px;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+.nav a:hover{
+    color: yellow;
+    background-color: black;
+}
+
+.second-section{
+    padding-top: 45px;
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    
+}
+hr{
+    border: 1px solid brown;
+    margin-bottom: 27px;
+}
+h1{
+    font-size: 37px;
+    color: rgb(18, 62, 105);
+}
+h3{
+    color: rgb(21, 60, 100);
+    
+}
+
+.half-width a{
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+.design{
+    color: white;
+    background-color: rgb(22, 70, 119);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.half-width img{
+   border: 3px dotted blue;
+   border-radius: 50%;   
+   
+}
+
+.third-section{
+    padding-top: 45px;
+    
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 2px;
+
+    
+}
+
+.banner>img{
+    border-radius: 20px;
+}
+.Header{
+    margin-top: 110px;
+}
+.Header>h1{
+    text-align: center;
+    color: blue;
+}
+.fourth-section{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 15px;
+    text-align: center;
+}
+.box{
+    background-color: gray;
+    border-radius: 10px;
+    width: 380px;
+    
+}
+.item>h2{
+    color: black;
+    font-size: 30px;
+}
+.item>p{
+    color: blue;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 9px;
+}
+.deteil>p{
+    font-size: 17px;
+    color: pink;
+}
+
+.fa-star{
+    font-size: 15px;
+}
+.fa-star.filled{
+    color: green;
+}
+.fa-star.empty{
+    color: orange;
+}
+.info{
+    text-align: left;
+    padding-left: 9px;
+}
+
+
+footer{
+    height: 250px;
+    background-color: rgb(3, 3, 44);
+}
+.foot>h2{
+    font-size: 30px;
+    padding-top: 40px;
+    color: oldlace;
+    text-align: center;
+}
+.foot>p{
+    
+    color: pink;
+    text-align: center;
+}
+.icon{
+    text-align: center;
+    font-size: 30px;
+    color: violet;
+}
